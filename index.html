@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <button id="btn-reset" class="logo">Jogo da Velha</button>
+      <nav class="nav">
+        <button
+          class="btn-menu"
+          aria-label="Abrir Menu"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        ><span class="hamburger"></span>
+        </button>
+        <ul class="menu" id="menu" role="menu">
+          <li><a href="https://www.instagram.com/vinicius_zero_/" target="_blank" >Contato</a></li>
+          <li><a href="https://github.com/ZEROhells" target="_blank" >GitHub</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="board">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+
+    <div class="result-message">
+      <p>X Venceu!</p>
+      <button id="btn-reset">Reiniciar</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
